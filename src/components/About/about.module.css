@@ -1,0 +1,24 @@
+.about {
+  margin: 0 5rem;
+}
+
+.about-us {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+div {
+  text-align: center;
+}
+
+.about-img {
+  max-width: 60%;
+  margin-top: 20px;
+}

@@ -1,0 +1,76 @@
+.details {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #000000c9;
+}
+
+.details-info {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.4;
+  font-size: 1.4rem;
+}
+
+.details-info img {
+  width: 100%;
+}
+
+.details-overview {
+  padding: 20px;
+}
+
+.details-overview h2 {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.1;
+}
+
+.btn-add {
+  background-color: rgba(228, 187, 20, 0.9);
+  color: #fff;
+  border: none;
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+  margin-top: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-add:hover {
+  background-color: rgba(237, 182, 17, 0.666);
+}
+
+.btn-back {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  height: 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blocks {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  box-shadow: 0 0 2px rgba(228, 187, 20, 0.9), 0 0 4px rgba(204, 153, 15, 0.4),
+    0 0 1rem rgba(237, 182, 17, 0.666), 0 0 4rem rgba(237, 195, 10, 0.1);
+}

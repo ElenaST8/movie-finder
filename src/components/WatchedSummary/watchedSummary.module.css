@@ -1,0 +1,7 @@
+.summary {
+  line-height: 3em;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 0 2px rgba(164, 53, 9, 0.782), 0 0 4px rgba(221, 89, 59, 0.4),
+    0 0 1rem rgba(157, 55, 14, 0.666), 0 0 4rem rgba(129, 61, 5, 0.1);
+}

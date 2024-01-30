@@ -1,0 +1,40 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  position: relative;
+  display: grid;
+  grid-template-columns: 10rem 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 2.4rem;
+  font-size: 1.6rem;
+  align-items: center;
+
+  padding: 1.6rem 3.2rem;
+  border-bottom: 1px solid black;
+}
+
+.list.list-movies li {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.list.list-movies li:hover {
+  box-shadow: 1rem 1rem 3rem 0px #868686;
+}
+
+.list img {
+  width: 100%;
+  grid-row: 1 / -1;
+}
+
+.list h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.list p {
+  margin-top: 0;
+}

@@ -1,0 +1,19 @@
+.common {
+  display: flex;
+  align-items: center;
+}
+
+.common-span {
+  font-size: 40px;
+}
+
+.svg {
+  margin-right: 7px;
+  cursor: pointer;
+  fill: red;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
